@@ -26,6 +26,12 @@ header{
   padding:5px;
   margin:0px -5px 0px -10px;
 }
+.main img{
+  float:left;
+  padding:10px;
+  width:255px;
+  height: 255px;
+}
 footer {
   background-color:#3E3E3E;
   height: 60px;
