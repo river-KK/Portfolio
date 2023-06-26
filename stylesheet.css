@@ -9,15 +9,22 @@ header{
   margin:-10px -5px 0px -10px;
   text-align: center;
 }
+header a{
+  color:#fff;
+  text-decoration: none;
+}
 .logo {
   float:left;
   padding:0px 20px;
-
 }
 .layer{
   list-style: none;
   float: left;
   margin: 20px 30px;
+  text-decoration: none;
+}
+.layer:hover {
+  text-decoration: underline;
 }
 .main{
   background-color:azure;
@@ -35,6 +42,12 @@ header{
 }
 .flex p{
   font-size : 20px;
+}
+.url {
+  text-decoration: none;
+}
+.url:hover {
+  text-decoration: underline;
 }
 .section_1 img{
   padding:10px;
@@ -58,7 +71,12 @@ footer {
   margin:0px -5px -10px -10px;
   text-align: center;
 }
+footer a{
+  color:#fff;
+  text-decoration: none;
+}
 .slash{
+  float:left;
   font-size: 20px;
-  margin:10px;
+  padding:20px;
 }
