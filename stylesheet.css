@@ -1,6 +1,97 @@
 body {
   font-family: "Avenir Next";
 }
+@media screen and (max-width: 480px) {
+  .layer{
+    list-style: none;
+    float: left;
+    margin: 20px 10px;
+    text-decoration: none;
+  }
+  .layer:hover {
+    text-decoration: underline;
+  }
+  .main{
+    background-color:azure;
+    color:#3E3E3E;
+    padding:10px;
+    margin:0px -5px 0px -10px;
+  }
+  .tag{
+    text-align: center;
+    padding:10px;
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*横の中央寄せ*/
+    align-items: center;/*縦の中央寄せ*/
+  }
+  .flex p{
+    font-size : 20px;
+  }
+}
+@media screen and (min-width: 481px) {
+  /* 481px以上に適用されるCSS（タブレット用） */
+  .layer{
+    list-style: none;
+    float: left;
+    margin: 20px 10px;
+    text-decoration: none;
+  }
+  .layer:hover {
+    text-decoration: underline;
+  }
+  .main{
+    background-color:azure;
+    color:#3E3E3E;
+    padding:10px;
+    margin:0px -5px 0px -10px;
+  }
+  .tag{
+    text-align: center;
+    padding:10px;
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*横の中央寄せ*/
+    align-items: center;/*縦の中央寄せ*/
+  }
+  .flex p{
+    font-size : 20px;
+  }
+}
+@media screen and (min-width: 960px) {
+	/* 960px以上に適用されるCSS（PC用） */
+  .layer{
+    list-style: none;
+    float: left;
+    margin: 20px 30px;
+    text-decoration: none;
+  }
+  .layer:hover {
+    text-decoration: underline;
+  }
+  .main{
+    background-color:azure;
+    color:#3E3E3E;
+    padding:10px;
+    margin:0px -5px 0px -10px;
+  }
+  .tag{
+    text-align: center;
+    padding:10px;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+  }
+  .flex p{
+    font-size : 20px;
+  }
+
+}
 header{
   background-color:#4169e1;
   height: 60px;
@@ -13,35 +104,18 @@ header a{
   color:#fff;
   text-decoration: none;
 }
-.logo {
-  float:left;
-  padding:0px 20px;
-}
-.layer{
-  list-style: none;
-  float: left;
-  margin: 20px 30px;
-  text-decoration: none;
-}
-.layer:hover {
-  text-decoration: underline;
-}
-.main{
-  background-color:azure;
-  color:#3E3E3E;
-  padding:10px;
-  margin:0px -5px 0px -10px;
-}
-.tag{
+
+footer {
+  background-color:#3E3E3E;
+  height: 60px;
+  color:azure;
+  padding:5px;
+  margin:0px -5px -10px -10px;
   text-align: center;
-  padding:10px;
 }
-.flex{
-  display: flex;
-  justify-content: center;
-}
-.flex p{
-  font-size : 20px;
+footer a{
+  color:#fff;
+  text-decoration: none;
 }
 .url {
   text-decoration: none;
@@ -63,20 +137,12 @@ header a{
 .scroll::-webkit-scrollbar{
   display: none;
 }
-footer {
-  background-color:#3E3E3E;
-  height: 60px;
-  color:azure;
-  padding:5px;
-  margin:0px -5px -10px -10px;
-  text-align: center;
-}
-footer a{
-  color:#fff;
-  text-decoration: none;
-}
 .slash{
   float:left;
   font-size: 20px;
   padding:20px;
+}
+.logo {
+  float:left;
+  padding:0px 20px;
 }
