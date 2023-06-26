@@ -2,6 +2,12 @@ body {
   font-family: "Avenir Next";
 }
 @media screen and (max-width: 480px) {
+  header{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
   .section_1 img{
     padding:10px;
     width: 128px;
