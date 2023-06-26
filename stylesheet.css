@@ -10,7 +10,7 @@ body {
   .layer{
     list-style: none;
     float: left;
-    margin: 20px 10px;
+    margin: 20px 5px;
     text-decoration: none;
   }
   .layer:hover {
@@ -24,7 +24,7 @@ body {
   }
   .tag{
     text-align: center;
-    padding:10px;
+    padding:5px;
   }
   .flex{
     display: flex;
@@ -38,6 +38,11 @@ body {
 }
 @media screen and (max-width: 960px) {
   /* 481px以上に適用されるCSS（タブレット用） */
+  .section_1 img{
+    padding:10px;
+    width: 255px;
+    height: 255px;
+  }
   .layer{
     list-style: none;
     float: left;
@@ -69,6 +74,11 @@ body {
 }
 @media screen and (min-width: 960px) {
 	/* 960px以上に適用されるCSS（PC用） */
+  .section_1 img{
+    padding:10px;
+    width: 255px;
+    height: 255px;
+  }
   .layer{
     list-style: none;
     float: left;
@@ -127,11 +137,6 @@ footer a{
 }
 .url:hover {
   text-decoration: underline;
-}
-.section_1 img{
-  padding:10px;
-  width: 255px;
-  height: 255px;
 }
 .scroll {
   height: 100px;
